@@ -10,7 +10,7 @@ Telegram-bot providing access to messages from notproud.ru
 4. run `npm i`
 5. using telegram-bot-token as environment variable run app.js
     ```
-    BOT_TOKEN=123123123:LOLOLOLOlalalalaLALALALAlolololo node start
+    BOT_TOKEN=123123123:LOLOLOLOlalalalaLALALALAlolololo npm start
     ```
 
 ## Usage
