@@ -6,7 +6,7 @@ const getProud = require('./get-proud.js');
 
 let startText = fs.readFileSync('./start-text.txt', 'utf-8');
 let keyboard = [];
-const preparedData = data.map(({ emoji, description, shortname }) => {
+const preparedData = data.map(({ emoji, description, shortname, category }) => {
   startText += `${emoji} – ${description}\n`;
   keyboard.push(`${emoji} ${shortname}`);
 
@@ -14,7 +14,7 @@ const preparedData = data.map(({ emoji, description, shortname }) => {
     `(${emoji}|${shortname}|${emoji} ${shortname})`,
     'im',
   );
-  return { emoji, description, shortname, requestRegx };
+  return { emoji, description, shortname, category, requestRegx };
 });
 
 keyboard = splitBy(keyboard, 3);
