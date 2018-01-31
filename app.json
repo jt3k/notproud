@@ -1,8 +1,0 @@
-{
-  "name": "t.me/notproudbot",
-  "description": "telegram bot",
-  "repository": "github.com/jt3k/notproud",
-  "logo": "http://node-js-sample.herokuapp.com/node.svg",
-  "keywords": ["node"],
-  "image": "heroku/nodejs"
-}

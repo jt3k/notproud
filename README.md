@@ -1,4 +1,5 @@
 # notproud
+
 Telegram-bot providing access to messages from notproud.ru
 
 ## Install and run
@@ -8,9 +9,9 @@ Telegram-bot providing access to messages from notproud.ru
 3. go to project directory in console `cd my-bot`
 4. run `npm i`
 5. using telegram-bot-token as environment variable run app.js
-   ```
-   BOT_TOKEN=123123123:FSDAGEQQGDFGDFGFHFSADSGFHBSDFSAD node ./app.js
-   ```
+    ```
+    BOT_TOKEN=123123123:LOLOLOLOlalalalaLALALALAlolololo node start
+    ```
 
 ## Usage
 
