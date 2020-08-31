@@ -17,6 +17,10 @@ Telegram-bot providing access to messages from notproud.ru
 
 Find your bot by `@id-name` in the telegram-app search, and click to start button.
 
+## Demo
+
+You can see how the bot works by clicking on this link https://t.me/NotProudBot
+
 ## License
 
 MIT
