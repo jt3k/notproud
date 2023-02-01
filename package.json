@@ -12,7 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "got": "^8.0.3",
+    "got": "^12.5.3",
     "micro-bot": "^2.2.1"
   }
 }
